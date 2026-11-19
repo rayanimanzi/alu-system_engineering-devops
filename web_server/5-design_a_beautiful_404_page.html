@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Ceci n'est pas une page</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      min-height: 100vh; display: flex; align-items: center; justify-content: center;
+      background: linear-gradient(135deg, #0f172a, #1e3a8a);
+      color: #f8fafc; font-family: Georgia, serif; text-align: center; padding: 16px;
+    }
+    .frame {
+      border: 12px solid #b45309; outline: 4px solid #fbbf24;
+      background: #fef3c7; color: #1c1917; padding: 48px 40px; max-width: 560px;
+      box-shadow: 0 30px 60px rgba(0,0,0,.5);
+    }
+    .code { font-size: 96px; font-weight: bold; letter-spacing: 8px; }
+    .pipe { font-size: 64px; margin: 8px 0; animation: float 3s ease-in-out infinite; }
+    h1 { font-style: italic; font-size: 28px; margin: 16px 0 8px; }
+    p { font-family: Arial, sans-serif; color: #44403c; margin-bottom: 24px; }
+    a {
+      display: inline-block; padding: 12px 24px; background: #1e3a8a; color: #fff;
+      text-decoration: none; font-family: Arial, sans-serif; border-radius: 4px;
+    }
+    a:hover { background: #b45309; }
+    @keyframes float { 50% { transform: translateY(-10px) rotate(-5deg); } }
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <div class="code">404</div>
+    <div class="pipe">&#127912;</div>
+    <h1>Ceci n'est pas une page</h1>
+    <p>Like Magritte's pipe, this page isn't what you were looking for.<br>
+       The page you requested does not exist.</p>
+    <a href="/">Back to reality</a>
+  </div>
+</body>
+</html>
